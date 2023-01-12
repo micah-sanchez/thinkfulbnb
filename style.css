@@ -30,10 +30,6 @@ section.alternate-background {
   color: #fff;
 }
 
-main img {
-  width: 100%;
-}
-
 img {
   width: 100%;
 }
@@ -148,20 +144,6 @@ footer p {
     flex-direction: row
   }
 
-  /* .group div {
-    display: flex;
-    flex-direction: row
-  }
-
-  
-
-  /* section {
-    display: flex;
-    flex: 1;
-    flex-direction: row;
-  }
-   */
-
    header {
     display: flex;
     justify-content: space-between;
@@ -194,19 +176,19 @@ footer p {
     width: 50%
   }
 
-  #ideas h3 {
-    justify-content: center;
-  }
 
-  #ideas h2 {
+/* Ideas */
+
+  /* #ideas img {
+    width: 50%;    
+  } */
+
+  .idea-flex {
     display: flex;
     flex-direction: row;
   }
 
-  #ideas img {
-    width: 50%;    
-  }
-  
+/* Host */
   #host {
     display: flex;
     align-items: center;
