@@ -186,6 +186,32 @@ footer p {
   .idea-flex {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
+
+  }
+
+  .forest-img {
+    height: 90%;
+    width: 48vw;
+    padding-right: 15px;
+  }
+
+  .beach-img {
+    height: 90%;
+    width: 48vw;
+    padding-right: 15px;
+  }
+
+  .pet-img {
+    height: 90%;
+    width: 48vw;
+    padding-right: 15px;
+  }
+
+  .cabin-img {
+    height:90%;
+    width: 48vw;
+    padding-right: 15px;
   }
 
 /* Host */
