@@ -141,13 +141,31 @@ footer p {
 
   .group {
     display: flex;
-    flex-direction: row
+    flex-direction: row;
   }
+
+  .group div {
+    flex-direction: column;
+  }
+
+  #menu {
+    flex-wrap: nowrap;
+    justify-content: center;
+    width: 100%
+  }
+
 
    header {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
+    align-items: center;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 10px;
   }
 
   form {
@@ -178,10 +196,6 @@ footer p {
 
 
 /* Ideas */
-
-  /* #ideas img {
-    width: 50%;    
-  } */
 
   .idea-flex {
     display: flex;
@@ -230,5 +244,49 @@ footer p {
 
   .host-class {
    width: 50%;
+  }
+
+  form select,
+  form input {
+    width: 3em;
+}
+}
+
+/*tablet styles here*/
+@media only screen and (min-width: 550px) {
+  form select,
+  form input {
+      background-color:#fff;
+      /* width: 75px; */
+      width: 5.4em;
+  }
+}
+/*desktop styles here*/
+@media only screen and (min-width: 700px) {
+  form select,
+  form input {
+      width: 7em;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  form select,
+  form input {
+      width: 160px;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 625px) {
+  header nav ul li a {
+    padding-right: 9px; 
+  }
+
+  #menu {
+    justify-content: left;
+  }
+
+  
+  .logo {
+    font-size: 50px;
   }
 }
